@@ -1,0 +1,56 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v23.5.0
+3 silly config load:file:C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\piruj\OneDrive\Desktop\OffShelf\.npmrc
+5 silly config load:file:C:\Users\piruj\.npmrc
+6 silly config load:file:C:\Users\piruj\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@latest frontend --template react-ts
+8 verbose argv "create" "vite@latest" "frontend" "--" "--template" "react-ts"
+9 verbose logfile logs-max:10 dir:C:\Users\piruj\OneDrive\Desktop\OffShelf\tempnpm-cache\_logs\2026-04-02T16_48_06_131Z-
+10 verbose logfile C:\Users\piruj\OneDrive\Desktop\OffShelf\tempnpm-cache\_logs\2026-04-02T16_48_06_131Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 http fetch GET 200 https://registry.npmjs.org/npm 134ms
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 110ms (cache miss)
+15 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+16 silly idealTree buildDeps
+17 silly fetch manifest create-vite@9.0.3
+18 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/create-vite 54ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+21 silly placeDep ROOT create-vite@9.0.3 OK for:  want: 9.0.3
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '9.0.3' ] }
+24 http cache create-vite@https://registry.npmjs.org/create-vite/-/create-vite-9.0.3.tgz 0ms (cache hit)
+25 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-9.0.3.tgz. Extracting by manifest.
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 197ms
+27 silly audit report {}
+28 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-9.0.3.tgz 312ms (cache miss)
+29 verbose stack Error: command failed
+29 verbose stack     at promiseSpawn (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:22:22)
+29 verbose stack     at spawnWithShell (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+29 verbose stack     at promiseSpawn (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+29 verbose stack     at runScriptPkg (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:79:13)
+29 verbose stack     at runScript (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+29 verbose stack     at run (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\libnpmexec\lib\run-script.js:60:10)
+29 verbose stack     at async exec (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\node_modules\libnpmexec\lib\index.js:307:10)
+29 verbose stack     at async Init.execCreate (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\lib\commands\init.js:143:5)
+29 verbose stack     at async Init.exec (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\lib\commands\init.js:46:14)
+29 verbose stack     at async Npm.exec (C:\Users\piruj\AppData\Roaming\npm\node_modules\npm\lib\npm.js:208:9)
+30 error code 1
+31 error path C:\Users\piruj\OneDrive\Desktop\OffShelf
+32 error command failed
+33 error command C:\WINDOWS\system32\cmd.exe /d /s /c create-vite frontend --template react-ts
+34 verbose cwd C:\Users\piruj\OneDrive\Desktop\OffShelf
+35 verbose os Windows_NT 10.0.26200
+36 verbose node v23.5.0
+37 verbose npm  v11.6.1
+38 notice
+38 notice New [33mminor[39m version of npm available! [33m11.6.1[39m -> [34m11.12.1[39m
+38 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.12.1[39m
+38 notice To update run: [4mnpm install -g npm@11.12.1[24m
+38 notice  { force: true, [Symbol(proc-log.meta)]: true }
+39 verbose exit 1
+40 verbose code 1
+41 error A complete log of this run can be found in: C:\Users\piruj\OneDrive\Desktop\OffShelf\tempnpm-cache\_logs\2026-04-02T16_48_06_131Z-debug-0.log
