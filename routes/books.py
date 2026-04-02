@@ -71,6 +71,8 @@ def search_books():
     saved_books = []
     for item in items:
         book_data = transform_google_book_item(item)
+        if book_data is None:
+            continue
         if not book_data.get("title"):
             continue
         book = save_book(book_data)
